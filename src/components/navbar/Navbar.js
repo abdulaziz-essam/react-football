@@ -1,12 +1,12 @@
 import React from 'react';
 import { Nav, Navbar, Container, Form, NavDropdown,Button,FormControl} from 'react-bootstrap'
-
+import "./navbar.css"
 const NavbarMain = () => {
     return (
         <div>
 
             <Navbar bg="light" expand="lg">
-            Football
+                <div className="football">FOOTBALL</div>
                 <Container fluid>
                     <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
